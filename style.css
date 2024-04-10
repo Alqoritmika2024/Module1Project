@@ -1,9 +1,7 @@
 .four-section{
-    border: 1px solid;
+    padding-bottom: 100px;
 }
-
 .four-header{
-    border: 1px solid;
 padding-left: 121px;
 font-family: 'Roboto Slab';
 font-style: normal;
@@ -11,18 +9,21 @@ font-weight: 700;
 font-size: 55px;
 line-height: 100%;
 color: #000000;
+
 }
 
 .four-section span{
-    padding-left: 122px;
+    
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 130%;
 color: #1E4681;
-border: 1px solid;
 
+}
+.four-ul-div{
+    margin-top: 89px;
 }
 .four-section p{
 font-family: 'Roboto';
@@ -31,19 +32,19 @@ font-weight: 400;
 font-size: 18px;
 line-height: 130%;
 color: #000000;
-padding-left: 122px;
+
 }
 
 .four-ul{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 69px;
-    width: 100%;   
+    margin-left: 69px;
+    width: 80%;  
+justify-content: space-between;
 }
 .four-ul li{
     width: 30%;
     list-style: none;
-    border: 1px solid red;
 }
 
    
@@ -53,7 +54,16 @@ padding-left: 122px;
 
 
 
+.five-header{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
 
+color: #000000;
+
+}
 .five-section{
  padding-left: 138px;
 }
@@ -64,21 +74,35 @@ padding-left: 122px;
     font-size: 24px;
     line-height: 150%;
     color: #000000;
+    padding: 20px;
     }
     @media (min-width:300px) and (max-width:600px){
         .five-section{
             padding-left: 44px;
             
         }
+        .four-ul-div{
+            margin-top: 16px;
+        }
         .four-ul li{
             width: 80%;
             list-style: none;
-            border: 1px solid red;
         }
-        
+        .four-ul{
+            padding: 0;
+            margin: 0;
+            margin: auto;
+        }
+        .five-header{
+            font-size: 26px;
+            margin: 0;
+            margin: auto;
+            padding: 0;
+        }
     
     .five-section ul{
         font-size: 12px;
+    
     }
     .four-header{
         font-size: 26px;
@@ -97,10 +121,22 @@ padding-left: 122px;
     .five-section{
         padding-left: 80px;
     }
-        
+    .four-ul-div{
+        margin-top: 51px;
+    }
     
     .five-section ul{
         font-size: 12px;
+        
+    }
+    .five-header{
+        font-size: 32px;
+        margin: 0 !important;
+        margin: auto;
+        padding: 0 !important;
+    }
+    .four-ul{
+        padding: 0;
     }
     .four-header{
         font-size: 32px;
@@ -108,10 +144,8 @@ padding-left: 122px;
     }
     .four-section span{
         font-size: 15px;
-        padding-left: 72px;
     }
     .four-section p{
         font-size: 11px;
-        padding-left: 72px;
     }
 }
