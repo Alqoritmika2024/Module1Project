@@ -1,6 +1,7 @@
-/* Кто чем занят в съёмочной группе; На какие этапы делится кинопроизводство; Как выглядит сценарий фильма и как он меняется по ходу съёмок; Какими методами режиссёры заставляют нас смеяться, плакать и грустить; Как построение кадра, музыка и свет помогают считывать заложенные в фильм смыслы; Какие жанры есть в кино и как от них зависит работа операторов, осветителей и монтажёров; Как, зная всё это, понимать, о чем фильм. */
-
-ul{
+.five-section{
+ padding-left: 138px;
+}
+.five-section ul{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -8,3 +9,24 @@ ul{
     line-height: 150%;
     color: #000000;
     }
+    @media (min-width:300px) and (max-width:600px){
+        .five-section{
+            padding-left: 44px;
+        }
+        
+        
+    
+    .five-section ul{
+        font-size: 12px;
+    }
+}
+@media (min-width:601px) and (max-width:991px){
+    .five-section{
+        padding-left: 80px;
+    }
+        
+    
+    .five-section ul{
+        font-size: 12px;
+    }
+}
