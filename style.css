@@ -1,0 +1,137 @@
+.six-container {
+  background-color: #efefef;
+
+  padding: 91px 122px 110px;
+}
+
+.six-header-div {
+  width: 70%;
+}
+.six-info-box {
+  width: 52%;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.six-info-paragraph-div {
+  width: 85%;
+  padding: 40px;
+}
+.six-info-paragraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.six-header {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55.76px;
+  text-align: left;
+}
+.six-facebook-image {
+  width: 7%;
+}
+.six-author-name {
+  font-family: Roboto Slab;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30.42px;
+  text-align: left;
+}
+.six-last-div {
+  display: flex;
+
+  padding-left: 30px;
+  padding-bottom: 50px;
+  width: 90%;
+  align-items: center;
+}
+.six-author-image {
+  width: 90%;
+}
+.six-author-image-div {
+  width: 40%;
+}
+
+.six-author {
+  width: 65%;
+}
+
+/* Tablet screen */
+@media screen and (max-width: 991px) {
+  .six-header {
+    font-size: 32px;
+    line-height: 32.44px;
+  }
+  .six-info-box {
+    width: 70%;
+  }
+
+  .six-container {
+    padding: 52px 70px;
+  }
+  .six-info-paragraph-div {
+    padding: 10px 25px;
+  }
+  .six-info-paragraph {
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .six-author-name {
+    font-size: 17px;
+    line-height: 17.24px;
+  }
+  .six-author-image-div {
+    width: 60%;
+  }
+  .six-last-div {
+    padding-left: 10px;
+    width: 95%;
+  }
+  .six-author {
+    width: 100%;
+  }
+}
+
+/* Telephone screen */
+
+@media screen and (max-width: 600px) {
+  .six-header {
+    font-size: 26px;
+    line-height: 26.36px;
+  }
+  .six-header-div {
+    margin: auto;
+    width: 80%;
+  }
+  .six-container {
+    padding: 42px 36px;
+  }
+  .six-info-box {
+    width: 80%;
+    margin: auto;
+  }
+  .six-info-paragraph {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .six-author-name {
+    font-size: 14px;
+    line-height: 14.2px;
+  }
+  .six-info-paragraph-div {
+    width: 80%;
+  }
+  .six-facebook-image {
+    width: 10%;
+  }
+  .six-author-image-div {
+    width: 70%;
+  }
+}
