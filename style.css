@@ -1,0 +1,112 @@
+#kurs{
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+#kurs .conatiner{
+    padding: 84px ;
+}
+#kurs .conatiner h3{
+    font-weight: 700;   
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+}
+#kurs .conatiner .kurs-items{
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 3%;
+}
+
+#kurs .conatiner .kurs-items .kurs-item{
+    width: 31%;
+    border-radius: 30px;    
+    margin-bottom: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#kurs .conatiner .kurs-items .kurs-item .icon-image{
+    width: 100%;
+    height:200px;
+}
+#kurs .conatiner .kurs-items .kurs-item .icon-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;    
+    border-top-right-radius: 30px;   
+}   
+#kurs .conatiner .kurs-items .kurs-item .item-text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    font-family: "Roboto", serif;
+}
+#kurs .conatiner .kurs-items .kurs-item .item-text p{
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+#kurs .conatiner .kurs-items .kurs-item .item-text span{
+    display: inline-block;
+    width: 80%;
+    font-weight: 400;
+    font-size: 25px;
+}
+.last-p{
+    margin-bottom: 0 !important;
+}
+
+@media (min-width:300px) and (max-width: 600px){
+    #kurs .conatiner{
+        padding: 34px;
+    }
+    #kurs .conatiner h3{
+        font-size: 26px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item{
+        width: 60%;
+        margin:auto;
+        margin-bottom: 24px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .icon-image{
+        height: 50%;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .icon-image img{
+        object-fit: cover;
+    }   
+    #kurs .conatiner .kurs-items .kurs-item .item-text p{
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .item-text span{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:601px) and (max-width: 991px){
+    #kurs .conatiner{
+        padding: 48px;
+    }
+    #kurs .conatiner h3{
+        font-size: 32px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item{
+        margin-bottom: 25px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .icon-image{
+        height:50% ;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .icon-image img{
+        object-fit: cover;
+    }   
+    #kurs .conatiner .kurs-items .kurs-item .item-text p{
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    #kurs .conatiner .kurs-items .kurs-item .item-text span{
+        font-size: 14px;
+    }
+}
