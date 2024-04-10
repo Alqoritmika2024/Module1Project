@@ -1,3 +1,59 @@
+.four-section{
+    border: 1px solid;
+}
+
+.four-header{
+    border: 1px solid;
+padding-left: 121px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 100%;
+color: #000000;
+}
+
+.four-section span{
+    padding-left: 122px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+color: #1E4681;
+border: 1px solid;
+
+}
+.four-section p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #000000;
+padding-left: 122px;
+}
+
+.four-ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 69px;
+    width: 100%;   
+}
+.four-ul li{
+    width: 30%;
+    list-style: none;
+    border: 1px solid red;
+}
+
+   
+
+
+
+
+
+
+
 .five-section{
  padding-left: 138px;
 }
@@ -12,12 +68,29 @@
     @media (min-width:300px) and (max-width:600px){
         .five-section{
             padding-left: 44px;
+            
         }
-        
+        .four-ul li{
+            width: 80%;
+            list-style: none;
+            border: 1px solid red;
+        }
         
     
     .five-section ul{
         font-size: 12px;
+    }
+    .four-header{
+        font-size: 26px;
+        padding-left: 36px;
+    }
+    .four-section span{
+        font-size: 12px;
+        padding-left: 35px;
+    }
+    .four-section p{
+        font-size: 10px;
+        padding-left: 35px;
     }
 }
 @media (min-width:601px) and (max-width:991px){
@@ -28,5 +101,17 @@
     
     .five-section ul{
         font-size: 12px;
+    }
+    .four-header{
+        font-size: 32px;
+        padding-left: 71px;
+    }
+    .four-section span{
+        font-size: 15px;
+        padding-left: 72px;
+    }
+    .four-section p{
+        font-size: 11px;
+        padding-left: 72px;
     }
 }
