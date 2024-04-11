@@ -3,13 +3,13 @@
     padding: 0%;
 }
 .first-infobox{
-    width: 70%;
+    width: 60%;
 }
 .first-header{
-    width: 112px;
-    height: 66px;
-    margin-left: 112px;
-    margin-top: 21px;
+    width: 80%;
+    margin: auto;
+    padding-top: 22px;
+    border: 1px solid darkorange;
 }
 .icon-text{
     display: flex;
@@ -18,6 +18,9 @@
 }
 .icon{
     margin-right: 10px;
+    width: 22px;
+    height: 21px;
+    
 }
 .first-text{
     padding-right: 50px;
@@ -25,28 +28,90 @@
 }
 .first-container{
     width: 100%;
-    border: 2px solid black;
 
 }
 .first-bigtext{
     font-family: "Roboto Slab", serif;
     font-weight: bold;
     font-size: 80px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .first-smalltext{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     margin-top: 20px;
 }
-.first-main-photo{
-    width: 304px;
-    height: 356px;
-}
+
 .first-info{
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 110px;
+    padding: 60px 0px;
+    margin: auto;
+    border: 1px solid blue;
+    width: 80%;
+}
+.first-main-photo img{
+    margin-top: 80px;
+}
+.first-footer{
+    width: 40%;
+    margin:  60px auto;
+    background-color: #1E4681;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: "Roboto Slab", serif;
+}
+.first-author{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (min-width:601px) and (max-width: 991px){
+      .icon-text{
+        width: 100%;
+      }
+      .first-bigtext{
+        font-size: 46px;
+      }
+      .first-smalltext{
+        font-size: 12px;
+      }
+      .first-text{
+        font-size: 12px;
+      }
+      .icon{
+        width: 11px;
+        height: 10px;
+      }
+      .first-main-photo img{
+        margin-top: 40px;
+    }
+      .first-main-photo img{
+        width: 176px;
+        height: 206px;
+      }
+      .first-main-photo{
+        width: 176px;
+        height: 206px;
+        border: 1px solid red;
+      }
+      .first-container{
+        width: 100%;
+        border: 1px solid black;
+      }
+      .first-author{
+        font-size: 12px;
+      }
+      .first-footer{
+        font-size: 14px;
+        margin: 50px auto;
+        margin-left: 240px;
+      }
+      
+}
+
+@media (min-width:300px) and (max-width: 600px){
+
 }
