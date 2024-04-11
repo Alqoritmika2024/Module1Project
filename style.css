@@ -1,0 +1,178 @@
+#seventh .seventh-container{
+    padding: 179px 122px;
+    background-color: #9DC9C8;    
+
+}
+#seventh .seventh-container h3 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #000000;
+    
+}
+#seventh .seventh-container span {
+    font-weight: 400;
+    font-size: 25px;
+    color:#000000;
+    font-family: "Roboto", sans-serif;
+}
+
+#seventh .seventh-container p {
+    font-size: 80px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+
+}
+
+#seventh .seventh-container .seventh-text {
+     display: flex; 
+     gap: 70px;
+     
+
+}
+
+#seventh .seventh-container .seventh-text .seventh-text-item p {
+
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+
+}
+#seventh .seventh-container .seventh-text .seventh-text-item span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#seventh .seventh-container .seventh-text .seventh-text-item {
+
+    width: 18%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:601px) and (max-width:991px) {
+#seventh .seventh-container {
+        padding: 103px 70px;
+            
+}
+
+#seventh .seventh-container h3 {
+    
+    font-size: 32px;
+    
+    
+}
+
+#seventh .seventh-container span {
+    
+    font-size: 14px;
+   
+}
+
+#seventh .seventh-container p {
+    font-size: 46px;
+
+}
+
+#seventh .seventh-container .seventh-text {
+    display: flex; 
+    gap: 40px;
+
+}
+
+#seventh .seventh-container .seventh-text .seventh-text-item p {
+
+    font-size: 14px;
+    
+
+}
+
+#seventh .seventh-container .seventh-text .seventh-text-item span {
+    font-size: 10px;
+   
+
+}
+#seventh .seventh-container .seventh-text .seventh-text-item {
+
+    width: 30%;
+
+}
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:600px) {
+    #seventh .seventh-container {
+        padding: 62px 37px;
+            
+}
+
+#seventh .seventh-container h3 {
+    
+    font-size: 26px;
+    
+    
+}
+
+#seventh .seventh-container span {
+    
+    font-size: 12px;
+   
+}
+#seventh .seventh-container p {
+    font-size: 37px;
+
+}
+
+#seventh .seventh-container .seventh-text {
+    display: flex; 
+    gap: 31px;
+
+}
+
+#seventh .seventh-container .seventh-text .seventh-text-item p {
+
+    font-size: 12px;
+    
+
+}
+#seventh .seventh-container .seventh-text .seventh-text-item span {
+    font-size: 10px;
+   
+
+}
+#seventh .seventh-container .seventh-text .seventh-text-item {
+
+    width: 40%;
+
+}
+
+}
