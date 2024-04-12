@@ -13,6 +13,7 @@
 }
 .icon-text{
     display: flex;
+    width: max-content;
     justify-content: flex-start;
     font-family: "Roboto", sans-serif;
 }
@@ -35,6 +36,7 @@
     font-weight: bold;
     font-size: 80px;
     margin-top: 30px;
+    width: max-content;
 }
 .first-smalltext{
     font-family: "Roboto", sans-serif;
@@ -73,13 +75,15 @@
         width: 100%;
       }
       .first-bigtext{
-        font-size: 46px;
+        font-size: 40px;
+
       }
       .first-smalltext{
         font-size: 12px;
       }
       .first-text{
         font-size: 12px;
+        padding-right: 10px;
       }
       .icon{
         width: 11px;
@@ -107,11 +111,54 @@
       .first-footer{
         font-size: 14px;
         margin: 50px auto;
-        margin-left: 240px;
+        margin-left: 210px;
       }
       
 }
 
 @media (min-width:300px) and (max-width: 600px){
+  .icon-text{
+    width: max-content;
+  }
+  .first-bigtext{
+    font-size: 36px;
+    width: max-content;
+
+  }
+  .first-smalltext{
+    font-size: 10px;
+    width: max-content;
+  }
+  .first-text{
+    font-size: 10px;
+    padding-right: 20px;
+  }
+  .icon{
+    width: 10px;
+    height: 9px;
+  }
+  .first-main-photo img{
+    margin-top: 180px;
+}
+  .first-main-photo img{
+    width: 140px;
+    height: 170px;
+  }
+  .first-main-photo{
+    width: 140px;
+    height: 170px;
+  }
+  .first-container{
+    width: 100%;
+    border: 1px solid black;
+  }
+  .first-author{
+    font-size: 8px;
+  }
+  .first-footer{
+    font-size: 10px;
+    margin: 130px auto;
+    margin-left: 50px;
+  }
 
 }
