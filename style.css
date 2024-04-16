@@ -859,6 +859,7 @@ img {
 @media (min-width:300px) and (max-width: 600px){
   .three-text {
     font-size: 12px !important;
+    padding-right: 0px;
   }
   .first-header img{
     width:52px;
