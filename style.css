@@ -318,6 +318,7 @@ img {
 
 #kurs .conatiner .kurs-items .kurs-item{
     width: 31%;
+    min-height:340px;
     border-radius: 30px;    
     margin-bottom: 40px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -329,7 +330,8 @@ img {
 #kurs .conatiner .kurs-items .kurs-item .icon-image img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    object-fit: fill;
     border-top-left-radius: 30px;    
     border-top-right-radius: 30px;   
 }   
@@ -354,9 +356,9 @@ img {
     font-weight: 400;
     font-size: 25px;
 }
-.last-p{
+/* .last-p{
     margin-bottom: 0 !important;
-}
+} */
 
 .three-container {
 
@@ -379,7 +381,7 @@ img {
   }
   .three-text {
     font-family: Roboto;
-    font-size: 24px;
+    /* font-size: 24px; */
     font-weight: 400;
     line-height: 36px;
     text-align: left;
@@ -726,19 +728,23 @@ img {
     #kurs .conatiner h3{
         font-size: 32px !important;
     }
-    #kurs .conatiner .kurs-items .kurs-item{
+     .kurs-item{
       width:30% !important;
-        margin-bottom: 25px;
+      min-height:190px !important;
+      margin-bottom: 25px;
     }
     #kurs .conatiner .kurs-items .kurs-item .icon-image{
-        height:50% ;
+        height:100px;
     }
     #kurs .conatiner .kurs-items .kurs-item .icon-image img{
         object-fit: cover;
     }   
+    #kurs .conatiner .kurs-items .kurs-item .item-text{
+      padding: 10px;  
+    }
     #kurs .conatiner .kurs-items .kurs-item .item-text p{
         font-size: 17px !important;
-        margin-bottom: 18px;
+        /* margin-bottom: 18px; */
     }
     #kurs .conatiner .kurs-items .kurs-item .item-text span{
         font-size: 14px !important;
@@ -1029,13 +1035,14 @@ img {
         #kurs .conatiner .kurs-items .kurs-item{
             width: 80% !important;
             margin:auto;
+            min-height:153px;
             margin-bottom: 24px;
         }
         #kurs .conatiner .kurs-items .kurs-item .icon-image{
-            height: 50%;
+            height:100px;
         }
         #kurs .conatiner .kurs-items .kurs-item .icon-image img{
-            object-fit: cover;
+            object-fit: fill;
         }   
         #kurs .conatiner .kurs-items .kurs-item .item-text p{
             font-size: 14px !important;
