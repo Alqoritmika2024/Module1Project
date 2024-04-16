@@ -194,7 +194,7 @@ display: block;
         .six-author-name {
           font-size: 17px !important;
           line-height: 17.24px !important;
-          margin-bottom: 10px;
+          margin-bottom: 10px !important;
         }
         .six-author-image-div {
           width: 60%;
@@ -523,6 +523,7 @@ margin-top: 20px;
     }
     .six-author-name {
       font-size: 14px !important;
+      margin-bottom: 10px !important;
       line-height: 14.2px !important;
     }
     .six-info-paragraph-div {
@@ -834,6 +835,7 @@ margin-top: 20px;
   font-size: 30px;
   font-weight: 700;
   line-height: 30.42px;
+  margin-bottom: 20px;
   text-align: left;
 }
 .six-last-div {
@@ -1150,12 +1152,14 @@ img {
     font-family: "Roboto Slab", serif;
     font-weight: 700;
     font-size: 55px;
+    margin-bottom: 20px;
     color: #000000;
     
 }
 #seventh .seventh-container span {
     font-weight: 400;
     font-size: 25px;
+    
     color:#000000;
     font-family: "Roboto", sans-serif;
 }
@@ -1164,6 +1168,7 @@ img {
     font-size: 80px;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 20px;
     font-family: "Roboto", sans-serif;
     margin-top: 0;
 
